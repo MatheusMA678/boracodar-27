@@ -22,17 +22,6 @@ export default {
           blueDark: "#000013"
         }
       },
-
-      keyframes: {
-        fadeIn: {
-          '100%': {
-            opacity: 1
-          }
-        }
-      },
-      animation: {
-        fadeIn: 'fadeIn 1s forwards'
-      }
     },
   },
   plugins: [],

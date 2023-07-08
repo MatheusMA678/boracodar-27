@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { motion, Variants } from "framer-motion";
-
-import Planet from './assets/planet.gif'
+import { Planet } from "./components/Planet";
 
 const containerVariants: Variants = {
   hidden: {
@@ -78,7 +77,7 @@ export default function App() {
         }}
         className="flex gap-2 items-center justify-center z-10">
         <span className='text-[8rem] font-bold text-purple-500 select-none'>4</span>
-        <img src={Planet} alt="not found 404" width={256} height={256} />
+        <Planet />
         <span className='text-[8rem] font-bold text-purple-500 select-none'>4</span>
       </motion.div>
     </div>
